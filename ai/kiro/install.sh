@@ -9,7 +9,7 @@ echo "Installing Kiro configuration..."
 
 mkdir -p "$KIRO_DIR/steering" "$KIRO_DIR/skills"
 
-cp -r "$SCRIPT_DIR/global/steering/." "$KIRO_DIR/steering/"
-cp -r "$SCRIPT_DIR/global/skills/." "$KIRO_DIR/skills/"
+cp -r "$SCRIPT_DIR/steering/." "$KIRO_DIR/steering/"
+cp -r "$SCRIPT_DIR/skills/." "$KIRO_DIR/skills/"
 
 echo "Kiro configuration installed successfully."
