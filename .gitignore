@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.bak
+
+# Logs
+*.log
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
